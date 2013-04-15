@@ -3,7 +3,7 @@
 //
 // DO NOT EDIT UNLESS YOU ARE SURE THAT YOU KNOW WHAT YOU ARE DOING
 //
-var Thrift = require('thrift').Thrift;
+var Thrift = require('../thrift').Thrift;
 var ttypes = module.exports = {};
 ttypes.SERIALIZATION_LIB = 'serialization.lib'
 ttypes.SERIALIZATION_CLASS = 'serialization.class'
