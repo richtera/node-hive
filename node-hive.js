@@ -1,6 +1,7 @@
 var thrift = require('./thrift'),
     ttransport = require('./thrift/transport'),
     ThriftHive = require('./gen-nodejs/ThriftHive'),
+    TCLIService = require('./gen-nodejs/TCLIService'),
     ResultSet = require('./result_set');
 
 var hiveClient = function(config) {
